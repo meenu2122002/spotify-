@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,700;0,900;1,500;1,700&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Rubik+Moonrocks&display=swap');
+body{
+   background-color: antiquewhite;
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    font-family: 'Roboto';
+}
+nav ul{
+    display:flex;
+    list-style: none;
+    height:81px;
+    background-color: black;
+    color:white;
+}
+
+.brand img{
+    height:50px;
+    width:50px;
+    
+}
+.brand{
+    display:flex;
+    /* font-size:40px; */
+    align-items:center;
+    }
+li{
+    margin: 40px;
+}
+
+.container{
+    background-image: url(headphone.jpg);
+    background-repeat: no-repeat;
+  height:1000px;
+ width:1000px;  
+ margin-top: 10px;
+ margin-left: 157px;
+ border-radius:6px;
+ background-color: black;
+}
+h1{
+    color:white;
+    margin:7px;
+    padding:4px;
+}
+.bottom{
+    position:fixed;
+    background-color: black;
+    bottom: 0px;
+    height:130px;
+    width:1000px;
+    margin-left:159px;
+    border-radius:5px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#myprogressbar{
+    width:73vw;
+    margin:20px;
+    cursor:pointer;
+
+}
+ .icons i{
+    margin-right:8px  ;
+    cursor:pointer;
+}
+.songitem{
+    border:white solid 4px;
+    border-radius:30px;
+    display:grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    justify-content:space-around;
+    align-items: center;
+    height:30px;
+    width:34vw;
+    background-color: white;
+    color:black;
+    margin:4px;
+}
+.songitem img{
+    height:35px;
+    width:37px;
+    border-radius: 24px;
+    border: white solid 2px;
+    position: relative;
+    top:-5px;
+    left:-5px;
+}
+.songitem i{
+    cursor:pointer;
+    color:black;
+    margin-left:9px;
+    
+}
+.timelimit{
+    position:relative;
+    top:-8px;
+}
+.songinfo{
+    height: 50px;
+    width: 300px;
+    color:white;
+    display: flex;
+
+}
+.songinfo img{
+    margin: 6px;
+    height: 30px;
+    width: 130px;
+    opacity: 0;
+    transition:opacity 0.6s ease-in;
+}
+.text{
+    padding:12px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
