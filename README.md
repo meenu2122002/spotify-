@@ -1,1 +1,1 @@
-# spotify-ensure connectivity to internet
+# Ensure connectivity to internet
